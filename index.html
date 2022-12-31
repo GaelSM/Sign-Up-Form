@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+
+  <main>
+    <div class="left">
+      <h1>Learn to code by watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </div>
+
+    <div class="right">
+      <div class="try">
+        <p> <span>Try it free 7 days</span> then $20/mo. thereafter</p>
+      </div>
+
+      <div class="form">
+
+        <div class="input__cotainer">
+          <div class="input">
+            <input type="text" placeholder="First Name" id="firsName">
+            <img src="./images/icon-error.svg" alt="Icon Error">
+          </div>
+          <p> Invalid First Name </p>
+        </div>
+
+        <div class="input__cotainer">
+          <div class="input">
+            <input type="text" placeholder="Last Name" id="lastName">
+            <img src="./images/icon-error.svg" alt="Icon Error">
+          </div>
+          <p> Invalid Last Name </p>
+        </div>
+
+        <div class="input__cotainer">
+          <div class="input">
+            <input type="text" placeholder="Email Address" id="emailAddress">
+            <img src="./images/icon-error.svg" alt="Icon Error">
+          </div>
+          <p> Invalid Email Address</p>
+        </div>
+
+        <div class="input__cotainer">
+          <div class="input">
+            <input type="password" placeholder="Password" id="password">
+            <img src="./images/icon-error.svg" alt="Icon Error">
+          </div>
+          <p> Invalid Password </p>
+        </div>
+
+        <button type="submit"> Claim your free trial </button>
+        <p class="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+</body>
+</html>
